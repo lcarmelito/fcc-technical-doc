@@ -1,13 +1,24 @@
 .main-section{
-    height: 20%;
-    border: 1px solid gray;
-    border-bottom: 0;
-  }
-  
-  .info {
-    text-align: center;
-  }
-  
-  .last {
-    border-bottom: 1px solid gray;
-  }
+  height: 30%;
+  border: 1px solid gray;
+  border-bottom: 0;
+}
+
+.info {
+  text-align: center;
+}
+
+.last {
+  border-bottom: 1px solid gray;
+}
+.code {
+  border: 2px solid #a5ada7;
+ background-color: #8d948e;
+ display: block;
+ width: 50%;
+ margin: auto;
+}
+.warning {
+  font-size: 32px;
+  font-weight: bold;
+}
