@@ -22,3 +22,10 @@
   font-size: 32px;
   font-weight: bold;
 }
+#navbar {
+  border: 2px solid gray;
+}
+.nav-link {
+  border-right: 1px solid gray;
+  padding: 10px;
+}
