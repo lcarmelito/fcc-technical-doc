@@ -2,6 +2,8 @@
   height: 30%;
   border: 1px solid gray;
   border-bottom: 0;
+  width: 87.6%;
+  float: right;
 }
 
 .info {
@@ -10,6 +12,7 @@
 
 .last {
   border-bottom: 1px solid gray;
+  height: 35%;
 }
 .code {
   border: 2px solid #a5ada7;
@@ -24,8 +27,27 @@
 }
 #navbar {
   border: 2px solid gray;
+  display: inline-block;
+  float: left;
+  height: 100%;
+  background-color: #84889c;
+  width: 100px;
+  position: fixed;
+  
 }
 .nav-link {
   border-right: 1px solid gray;
   padding: 10px;
+}
+@media screen and (max-width: 480px) {
+  .main-section {
+    height: 75%;
+    width: 70.5%;
+  }
+  .last {
+    height: 150%;
+  }
+  .lower {
+    height: 100%
+  }
 }
